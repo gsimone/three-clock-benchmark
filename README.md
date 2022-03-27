@@ -2,7 +2,7 @@
 
 ## Running the benchmark
 
-```
+```bash
 # install
 yarn
 # run
