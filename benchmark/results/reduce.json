@@ -1,0 +1,33 @@
+{
+  "name": "Clock",
+  "date": "2022-03-27T09:18:52.024Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "baseline",
+      "ops": 30220022,
+      "margin": 0.33,
+      "percentSlower": 1.11
+    },
+    {
+      "name": "class",
+      "ops": 30557704,
+      "margin": 0.19,
+      "percentSlower": 0
+    },
+    {
+      "name": "module",
+      "ops": 30446473,
+      "margin": 0.25,
+      "percentSlower": 0.36
+    }
+  ],
+  "fastest": {
+    "name": "class",
+    "index": 1
+  },
+  "slowest": {
+    "name": "baseline",
+    "index": 0
+  }
+}
